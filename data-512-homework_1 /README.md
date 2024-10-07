@@ -96,3 +96,4 @@ The data was obtained via the Wikimedia Pageviews API. The API documentation is 
 2. **Large File Size**: JSON files exceed GitHub's recommended maximum file size (50 MB). Use Git Large File Storage (LFS) for storing and managing these files efficiently.
 3. **Access Type Considerations**: The `access` field was removed from the cumulative file due to potential misinterpretation.
 4. **Date Range Limitations**: Data was collected from July 1, 2015, through September 30, 2024, which restricts trend analysis to this time frame.
+5. **API not working for articles with '/'**: Some articles had a '/' in their name and the API did not extract data (views) for them. They were skipped for this analysis. Example - Cystine/glutamate transporter.
