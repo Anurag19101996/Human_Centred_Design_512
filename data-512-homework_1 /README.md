@@ -86,6 +86,9 @@ The data was obtained via the Wikimedia Pageviews API. The API documentation is 
 6. **least_10_months_time_series.png**  
    - **Description**: Time series plot for the 10 articles with the fewest months of available data, separated by desktop and mobile access.
    - **Details**: Highlights articles with the fewest months of data.
+  
+7. **DATA512-HW1-Anuraga.ipynb**
+   - Python notebook to process the code for data extraction from API as well as the required analysis and time series charts.
 
 ## Known Issues and Special Considerations
 
