@@ -1,7 +1,3 @@
-Here’s the Markdown formatted document, optimized for GitHub so you can directly copy it into a README file or similar documentation on your repository.
-
----
-
 # Monthly Wikipedia Article Traffic Analysis for Rare Diseases
 
 ## Project Goal
@@ -97,7 +93,3 @@ The data was obtained via the Wikimedia Pageviews API. The API documentation is 
 2. **Large File Size**: JSON files exceed GitHub's recommended maximum file size (50 MB). Use Git Large File Storage (LFS) for storing and managing these files efficiently.
 3. **Access Type Considerations**: The `access` field was removed from the cumulative file due to potential misinterpretation.
 4. **Date Range Limitations**: Data was collected from July 1, 2015, through September 30, 2024, which restricts trend analysis to this time frame.
-
----
-
-This documentation should be ready to paste directly into your GitHub repository's `README.md` or similar file. It follows GitHub Markdown standards and includes all necessary details.
