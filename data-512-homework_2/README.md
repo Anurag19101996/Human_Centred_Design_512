@@ -35,7 +35,25 @@ Both files are included in this repository:
 - `article_quality`: Quality assessment of the article by ORES, with classes ranging from "FA" (Featured Article) to "Stub" (string).
 
 ---
+## Addressing Questions
 
+### What biases did you expect to find in the data (before you started working with it), and why?
+
+I expected that countries with very small populations or remote geographic locations (either politically or geographically) would have limited article coverage. The reason for this expectation is that media and contributors may focus on more prominent, easily accessible regions where news coverage and information are more readily available. This could lead to a bias where countries with significant global influence or media presence have more articles on Wikipedia, while smaller or isolated countries may be underrepresented due to the challenges in gathering or verifying information.
+
+### What might your results suggest about (English) Wikipedia as a data source?
+
+I expected that larger countries, whether in terms of geography or population, would have more coverage of politicians on Wikipedia. However, the fact that countries like China and India appear in the bottom 10 for coverage challenges this expectation. Additionally, European regions consistently rank the highest in both overall coverage and high-quality coverage, suggesting that Wikipedia contributors may have a bias towards European countries. This could indicate a Western-centric bias in Wikipedia's representation, potentially due to the demographics of its contributors or accessibility challenges in other regions.
+
+### Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might still be appropriate and useful, despite its inherent limitations and biases?
+
+If the analysis is focused specifically on European countries, this dataset could be quite suitable since the data coverage and quality appear to be robust for this region. The high volume and quality of information on European politicians in Wikipedia would allow for accurate insights and modeling for Europe-centric studies, making it a reliable data source for region-specific analyses.
+
+### Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might create biased or misleading results, due to the inherent gaps and limitations of the data?
+
+This dataset may not be suitable for research or modeling focused on Asian countries, as coverage and high-quality articles for this region are limited, with Asian region ranking among the lowest. Relying on this dataset for insights or decisions about Asian countries could lead to biased or misleading results, as the dataset does not adequately represent this region's political figures or events.
+
+---
 ## Considerations
 
 - **Article Exclusions**: Articles that did not pertain to politicians, such as "David Henríquez (footballer, born 1977)," were excluded from the analysis to ensure accuracy. This filtering led to an error rate of 0% for ORES score extraction.
