@@ -7,9 +7,11 @@ This project explores the potential biases present in Wikipedia data by analyzin
 Analyze Wikipedia's coverage of politicians by country and compare it to population data.
 Determine the quality distribution of these articles and observe any disparities across countries and regions.
 Reflect on the impact of data bias and its implications for Wikipedia and broader data science applications.
-Data Sources
-Wikipedia Politicians by Country Data - Crawled from Wikipedia's "Politicians by nationality" category.
-World Population Data - Obtained from the Population Reference Bureau, representing populations as of August 2024.
+
+## Data Sources
+- **Wikipedia Politicians by Country Data** - Crawled from Wikipedia's "Politicians by nationality" category.
+- **World Population Data** - Obtained from the Population Reference Bureau, representing populations as of August 2024.
+- 
 Both files are included in this repository:
 
 politicians_by_country.AUG.2024.csv
