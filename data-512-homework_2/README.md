@@ -11,8 +11,7 @@ Reflect on the impact of data bias and its implications for Wikipedia and broade
 ## Data Sources
 - **Wikipedia Politicians by Country Data** - Crawled from Wikipedia's "Politicians by nationality" category.
 - **World Population Data** - Obtained from the Population Reference Bureau, representing populations as of August 2024.
-- 
+  
 Both files are included in this repository:
-
-politicians_by_country.AUG.2024.csv
-population_by_country_AUG.2024.csv
+- politicians_by_country.AUG.2024.csv
+- population_by_country_AUG.2024.csv
