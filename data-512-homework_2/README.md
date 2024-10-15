@@ -58,6 +58,6 @@ This dataset may not be suitable for research or modeling focused on Asian count
 
 - **Article Exclusions**: Articles that did not pertain to politicians, such as "David Henríquez (footballer, born 1977)," were excluded from the analysis to ensure accuracy. This filtering led to an error rate of 0% for ORES score extraction.
 - **Missing Revision IDs**: Eight articles for politicians did not have a valid `revision_id` from the Wikipedia API and were therefore excluded from the analysis.
-- **Data Tables**: All required data tables are embedded within the Python notebook for easy reference and analysis. The unit is counts/million.
+- **Data Tables**: All required data tables are embedded within the Python notebook for easy reference and analysis. The unit is counts/million for the columns 'total_articles_per_capita' and 'high_quality_articles_per_capita'.
 - **Bottom 10 Countries by High-Quality Articles per Capita**: The "Bottom 10 Countries by High-Quality Articles per Capita" data table lists countries where high_quality_articles_per_capita is 0.00. As more than 10 countries share this value, a random selection of 10 countries is shown, since no specific selection criteria were provided in the assignment. The lowest non-zero value is from Bangladesh, with high_quality_articles_per_capita equal to 0.005764.
   
