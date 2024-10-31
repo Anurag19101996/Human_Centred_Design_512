@@ -50,3 +50,6 @@ AQI data is obtained via the **EPA Air Quality System (AQS) API**. It includes a
 4. **Time Series of Fire Smoke Impact and AQI**: Compares AQI estimates and smoke estimates (impact scores) for available years.
 
 AQI data, focusing on **PM2.5**, was used to validate smoke estimates. Observations indicate a correlation between high smoke estimates and elevated AQI values, suggesting wildfire impact on Charleston’s air quality.
+
+### Refelections and Visualizations writeup
+'Data 512 Part 1 Reflections.pdf' contains the writeup as required for Step 3: Write and Reflect.
