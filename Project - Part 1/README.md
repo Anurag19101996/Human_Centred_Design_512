@@ -40,7 +40,17 @@ AQI data is obtained via the **EPA Air Quality System (AQS) API**. It includes a
 ### Fire Smoke Estimate Calculation:
 - Fires within 650 miles of Charleston were identified.
 - Smoke estimates are based on fire area and distance using a logarithmic function: `fire area / log(1 + distance from Charleston)` for closer and larger fires.
-- Rationale for Logarithmic Scaling: The logarithmic function is applied to distance to account for the fact that smoke impact decreases as distance from the fire increases, but not in a strictly linear way. The use of log(1 + distance) moderates the influence of distant fires by reducing the impact gradually rather than abruptly. This approach provides a more realistic representation of smoke dispersion, where closer fires contribute more heavily to the estimate, and distant fires contribute less as they are further away.
+- **Rationale for Logarithmic Scaling**: The logarithmic function is applied to distance to account for the fact that smoke impact decreases as distance from the fire increases, but not in a strictly linear way. The use of `log(1 + distance)` moderates the influence of distant fires by reducing the impact gradually rather than abruptly. This approach provides a more realistic representation of smoke dispersion, where closer fires contribute more heavily to the estimate, and distant fires contribute less as they are further away.
+
+### Prediction Model
+- **Model Choice**: An ARIMA model was chosen for predicting smoke impact due to its simplicity and suitability for univariate time series data. 
+- **Differencing for Stationarity**: To prepare the dataset for ARIMA, the data was differenced once to ensure stationarity, a necessary condition for ARIMA modeling.
+- **Data Structure**: The dataset has only one feature (smoke estimate) plus the year, making ARIMA an appropriate choice for forecasting future smoke impact values.
+- **Prediction Range**: Forecasts cover the years 2025 to 2050, providing insights into potential future wildfire smoke impact.
+
+### Correlation Analysis
+- **Correlation Coefficient**: A positive correlation coefficient of 0.35 was calculated between the AQI data and the smoke estimate, suggesting a moderate positive relationship.
+  - **Interpretation**: As AQI values increase, smoke estimates tend to increase as well, which implies that both metrics reflect worsening air quality conditions.
 
 ### Visualization in Python Notebook:
 
@@ -51,5 +61,5 @@ AQI data is obtained via the **EPA Air Quality System (AQS) API**. It includes a
 
 AQI data, focusing on **PM2.5**, was used to validate smoke estimates. Observations indicate a correlation between high smoke estimates and elevated AQI values, suggesting wildfire impact on Charleston’s air quality.
 
-### Refelections and Visualizations writeup
-'Data 512 Part 1 Reflections.pdf' contains the writeup as required for Step 3: Write and Reflect.
+### Reflections and Visualizations Writeup
+The file `Data 512 Part 1 Reflections.pdf` contains the writeup required for **Step 3: Write and Reflect**.
