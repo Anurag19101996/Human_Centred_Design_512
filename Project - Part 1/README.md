@@ -40,6 +40,7 @@ AQI data is obtained via the **EPA Air Quality System (AQS) API**. It includes a
 ### Fire Smoke Estimate Calculation:
 - Fires within 650 miles of Charleston were identified.
 - Smoke estimates are based on fire area and distance using a logarithmic function: `fire area / log(1 + distance from Charleston)` for closer and larger fires.
+- Rationale for Logarithmic Scaling: The logarithmic function is applied to distance to account for the fact that smoke impact decreases as distance from the fire increases, but not in a strictly linear way. The use of log(1 + distance) moderates the influence of distant fires by reducing the impact gradually rather than abruptly. This approach provides a more realistic representation of smoke dispersion, where closer fires contribute more heavily to the estimate, and distant fires contribute less as they are further away.
 
 ### Visualization in Python Notebook:
 
