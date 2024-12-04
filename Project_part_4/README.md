@@ -66,3 +66,27 @@ By examining these dynamics, the extended analysis provides valuable insights in
 ## Additional References
 - Charleston's susceptibility to forest fires: [First Street Foundation](https://firststreet.org/city/charleston-sc/4513330_fsid/fire)
 - Historical wildfire impacts in South Carolina: [SC Forestry Commission](https://www.scfc.gov/protection/fire-burning/fire-resources/wildfire-history/)
+
+## My Learnings and Reflections
+
+Throughout the duration of this project, I gained substantial insights into both the technical aspects of data science and the real-world implications of environmental research. Below are some of the key learnings from this experience:
+
+### Technical Skills Enhancement
+- **Data Processing and Analysis:** I developed a deeper understanding of handling large datasets, filtering relevant data, and applying statistical methods to extract meaningful trends and correlations.
+- **Predictive Modeling:** Working with ARIMA models enhanced my skills in time-series forecasting. This experience underscored the importance of selecting appropriate models based on the data structure and the forecasting goals.
+
+### Understanding of Environmental Health Impacts
+- **Direct Impact of Wildfires on Public Health:** The project provided me with a practical perspective on how environmental factors like wildfire smoke can significantly affect air quality and, consequently, public health. The correlation between smoke exposure and health outcomes like mortality and life expectancy was particularly illuminating.
+- **Predictive Challenges:** I learned about the complexities involved in predicting long-term health impacts based on environmental data. This includes understanding the limitations of models and the influence of confounding factors such as demographic changes and healthcare improvements.
+
+### Policy Implications
+- **Informed Decision-Making:** The project highlighted the critical role of data-driven insights in shaping public health policies and emergency preparedness. By forecasting the potential long-term impacts of wildfire smoke, policymakers can better prepare and implement strategies to mitigate these effects.
+- **Community Engagement:** I realized the importance of involving the community in discussions about environmental health risks. Educating the public about the risks associated with wildfire smoke and engaging them in preventive measures can significantly enhance community resilience.
+
+### Personal Growth
+- **Problem-Solving:** This project tested my problem-solving skills, especially when unexpected results arose from the predictive models. It taught me to critically evaluate and refine methodologies to ensure more accurate predictions.
+- **Collaboration and Communication:** Working on this project improved my ability to collaborate with peers and communicate complex data findings in an understandable manner for both academic and non-academic audiences.
+
+These learnings not only enhanced my technical capabilities but also deepened my appreciation for interdisciplinary research that combines data science with public health and policy-making. As I continue in my career, I plan to leverage these experiences to contribute effectively to environmental health research and interventions.
+
+
